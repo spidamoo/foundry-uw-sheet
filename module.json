@@ -5,5 +5,7 @@
   "author": "spidamoo",
   "version": "0.1.0",
   "minimumCoreVersion": "0.5.0",
-  "scripts": ["./us-sheet.js"]
+  "scripts": ["./us-sheet.js"],
+  "manifest": "https://raw.githubusercontent.com/spidamoo/foundry-uw-sheet/master/module.json",
+  "download": "https://raw.githubusercontent.com/spidamoo/foundry-uw-sheet/master/uw-sheet.zip"
 }
