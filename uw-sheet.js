@@ -46,7 +46,7 @@ class UwActorSheet extends ActorSheet {
    * This is where you will define JavaScript event handling for your sheet to make it interactive
    * Some interactions (like resizing) are handled automatically for you by the parent class
    */
-	activateListeners(html) {
+  activateListeners(html) {
     super.activateListeners(html);
   }
 }
@@ -54,7 +54,7 @@ class UwActorSheet extends ActorSheet {
 /**
  * An important step is to register your sheet so it can be used
  */
-Actors.registerSheet("core", MyActorSheet, {
+Actors.registerSheet("worldbuilding", UwActorSheet, {
   types: [],            // Use this sheet for all types of actors, or just a specific type?
   makeDefault: true     // Make this sheet the default choice for these types of actors?
 });
