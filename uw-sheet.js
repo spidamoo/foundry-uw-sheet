@@ -14,7 +14,7 @@ class UwActorSheet extends ActorSheet {
 	static get defaultOptions() {
 	  const options = super.defaultOptions;
 	  options.classes = options.classes.concat(["uw-sheet"]);  // Give your sheet a namespaced class so you can effectively target CSS rules
-	  options.template = "public/modules/uw-sheet/uw-sheet.html";  // This will point towards the HTML file you are going to use for the sheet
+	  options.template = "modules/uw-sheet/uw-sheet.html";  // This will point towards the HTML file you are going to use for the sheet
     options.width = 600; // This configures the default starting width
     options.height = 720; // Starting height
     options.submitOnUnfocus = true;  // Should the form be saved when an input field is unfocused?
