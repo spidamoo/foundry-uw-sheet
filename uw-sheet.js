@@ -54,7 +54,12 @@ class UwActorSheet extends ActorSheet {
 /**
  * An important step is to register your sheet so it can be used
  */
-Actors.registerSheet("dnd5e", UwActorSheet, {
+// Actors.registerSheet("dnd5e", UwActorSheet, {
+//   types: ["character"],
+//   makeDefault: true
+// });
+
+Actors.registerSheet("worldbuilding", UwActorSheet, {
   types: ["character"],
   makeDefault: true
 });
