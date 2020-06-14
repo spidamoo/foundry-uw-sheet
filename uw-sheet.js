@@ -15,7 +15,7 @@ class UwActorSheet extends ActorSheet {
 	  const options = super.defaultOptions;
 	  options.classes = options.classes.concat(["uw-sheet"]);  // Give your sheet a namespaced class so you can effectively target CSS rules
 	  options.template = "modules/uw-sheet/uw-sheet.html";  // This will point towards the HTML file you are going to use for the sheet
-    options.width = 600; // This configures the default starting width
+    options.width = 950; // This configures the default starting width
     options.height = 720; // Starting height
     options.submitOnUnfocus = true;  // Should the form be saved when an input field is unfocused?
     options.submitOnClose = true;  // Should the form be saved when the sheet is closed?
@@ -50,14 +50,6 @@ class UwActorSheet extends ActorSheet {
     super.activateListeners(html);
   }
 }
-
-/**
- * An important step is to register your sheet so it can be used
- */
-// Actors.registerSheet("dnd5e", UwActorSheet, {
-//   types: ["character"],
-//   makeDefault: true
-// });
 
 Actors.registerSheet("worldbuilding", UwActorSheet, {
   types: ["character"],
