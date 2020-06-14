@@ -3,7 +3,7 @@
   "title": "Character Sheet for Uncharted Worlds",
   "description": "Just a Character Sheet for Uncharted Worlds.",
   "author": "spidamoo",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "minimumCoreVersion": "0.6.2",
   "compatibleCoreVersion": "0.6.2",
   "scripts": ["./uw-sheet.js"],
