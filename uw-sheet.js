@@ -55,6 +55,6 @@ class UwActorSheet extends ActorSheet {
  * An important step is to register your sheet so it can be used
  */
 Actors.registerSheet("worldbuilding", UwActorSheet, {
-  types: [],            // Use this sheet for all types of actors, or just a specific type?
-  makeDefault: true     // Make this sheet the default choice for these types of actors?
+  types: ["character"],
+  makeDefault: true
 });
